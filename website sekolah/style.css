@@ -1,0 +1,152 @@
+.body{
+  background-color:orangered ;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3a3a3a;
+  margin: 0;
+}
+  
+ul{
+  list-style-type: none;
+  margin: 16px 32px;
+  overflow: hidden;
+}
+
+li{
+  float: right;
+}
+
+.logo{
+  float: left;
+}
+
+.bg-img{
+  width: 500%;
+  max-width: 600px;
+  height: auto;
+}
+
+.logo-wk-1{
+  float: left;
+  padding-top: 50px;
+  width: 200%;
+  max-width: 150px;
+  height: auto;
+}
+
+.bg-matrik{
+  padding: 9em;
+  background-size: 100%;
+  background-position: center 40%;
+  background-repeat: no-repeat;
+  background-image: url(https://smkwikrama.sch.id/uploads/news/f77a5ebbc1bea3db290189693264d09d.jpg);
+}
+
+.bg-kantin{
+  padding: 9em;
+  background-size: 100%;
+  background-position: center 50%;
+  background-repeat: no-repeat;
+  background-image: url(https://smkwikrama.sch.id/uploads/media/8JQJ3032GJY.jpg);
+}
+
+.hd-perpus{
+  padding: 9em;
+  background-size: 100%;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+ background-image: url(https://tse1.mm.bing.net/th?id=OIP.6Hy1SkIszeh7w_nc92j7pAHaE6&pid=Api&P=0);
+}
+li a{
+
+  display: block;
+  text-align: #3a3a3a;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.logo-text{
+  font-style: italic;
+}
+
+li a:hover:not(.active){
+  color: #3ecfff;
+}
+
+.active{
+  color: #3ecfff;
+}
+
+@media screen and(max-width: 600px) {
+  ul li{float: none;}
+  .logo{float: none;}
+}
+
+img{
+  width: 50%;
+  max-width: 100px;
+  height: auto;
+}
+
+.content1{
+  display: 0 64px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.text1{
+  margin: 0 64px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+h1{
+  margin-top: 0;
+}
+
+#tag{
+  margin-top: 0;
+  margin-bottom: 24px;
+  letter-spacing: 3px;
+}
+
+mark{
+  background-color: #004258;
+  color: white;
+  padding: 5 px 5px;
+}
+
+.clearfix:after{
+  content:"" ;
+  display: table;
+  clear: both;
+}
+
+.footer-main{
+  background-color: #004258;
+  padding: 24px 60px;
+  color: white;
+}
+
+.footer-gride{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 10px;
+  margin: 0;
+  max-width: 100%;
+  justify-items: center;
+}
+
+@media (max-width: 1024px) {
+  .footer-grid {
+    padding-left: 20px;
+  }
+}
+
+.footer-grid p {
+  margin: 10px 0;
+}
